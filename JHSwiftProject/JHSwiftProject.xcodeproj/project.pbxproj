@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83E5A3571F9A0F9C0010E643 /* JHBaseStudy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E5A3561F9A0F9C0010E643 /* JHBaseStudy.swift */; };
+		83E5A3981F9EE77D0010E643 /* JHEnumStudy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E5A3971F9EE77D0010E643 /* JHEnumStudy.swift */; };
+		83E5A39A1F9F19950010E643 /* JHEquatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E5A3991F9F19950010E643 /* JHEquatable.swift */; };
+		83E5A39C1F9F24EA0010E643 /* JHPropertyStudy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E5A39B1F9F24EA0010E643 /* JHPropertyStudy.swift */; };
+		83E5A39E1F9F3B9B0010E643 /* JHIndexStudy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E5A39D1F9F3B9B0010E643 /* JHIndexStudy.swift */; };
+		83E5A3A01F9F660C0010E643 /* JHInheritStudy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E5A39F1F9F660C0010E643 /* JHInheritStudy.swift */; };
+		83E5A3A21F9F6C010010E643 /* JHConsstructStudy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E5A3A11F9F6C010010E643 /* JHConsstructStudy.swift */; };
+		83E5A3A41FA074E10010E643 /* JHOptionalStudy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E5A3A31FA074E10010E643 /* JHOptionalStudy.swift */; };
 		A817D05E1CC9FFA500A493BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A817D05D1CC9FFA500A493BF /* AppDelegate.swift */; };
 		A817D0601CC9FFA500A493BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A817D05F1CC9FFA500A493BF /* ViewController.swift */; };
 		A817D0631CC9FFA500A493BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A817D0611CC9FFA500A493BF /* Main.storyboard */; };
@@ -35,6 +43,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		83E5A3561F9A0F9C0010E643 /* JHBaseStudy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHBaseStudy.swift; sourceTree = "<group>"; };
+		83E5A3971F9EE77D0010E643 /* JHEnumStudy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHEnumStudy.swift; sourceTree = "<group>"; };
+		83E5A3991F9F19950010E643 /* JHEquatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHEquatable.swift; sourceTree = "<group>"; };
+		83E5A39B1F9F24EA0010E643 /* JHPropertyStudy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHPropertyStudy.swift; sourceTree = "<group>"; };
+		83E5A39D1F9F3B9B0010E643 /* JHIndexStudy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHIndexStudy.swift; sourceTree = "<group>"; };
+		83E5A39F1F9F660C0010E643 /* JHInheritStudy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHInheritStudy.swift; sourceTree = "<group>"; };
+		83E5A3A11F9F6C010010E643 /* JHConsstructStudy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHConsstructStudy.swift; sourceTree = "<group>"; };
+		83E5A3A31FA074E10010E643 /* JHOptionalStudy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHOptionalStudy.swift; sourceTree = "<group>"; };
 		A817D05A1CC9FFA500A493BF /* JHSwiftProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JHSwiftProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A817D05D1CC9FFA500A493BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A817D05F1CC9FFA500A493BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +92,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		83C5EB221F6FF60D00D33ABF /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		83E5A3961F9EE7570010E643 /* BaseStudy */ = {
+			isa = PBXGroup;
+			children = (
+				83E5A3561F9A0F9C0010E643 /* JHBaseStudy.swift */,
+				83E5A3971F9EE77D0010E643 /* JHEnumStudy.swift */,
+				83E5A3991F9F19950010E643 /* JHEquatable.swift */,
+				83E5A39B1F9F24EA0010E643 /* JHPropertyStudy.swift */,
+				83E5A39D1F9F3B9B0010E643 /* JHIndexStudy.swift */,
+				83E5A39F1F9F660C0010E643 /* JHInheritStudy.swift */,
+				83E5A3A11F9F6C010010E643 /* JHConsstructStudy.swift */,
+				83E5A3A31FA074E10010E643 /* JHOptionalStudy.swift */,
+			);
+			name = BaseStudy;
+			sourceTree = "<group>";
+		};
 		A817D0511CC9FFA500A493BF = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +139,8 @@
 			children = (
 				A817D05D1CC9FFA500A493BF /* AppDelegate.swift */,
 				A817D05F1CC9FFA500A493BF /* ViewController.swift */,
+				83E5A3961F9EE7570010E643 /* BaseStudy */,
+				83C5EB221F6FF60D00D33ABF /* New Group */,
 				A817D0611CC9FFA500A493BF /* Main.storyboard */,
 				A817D0671CC9FFA500A493BF /* Assets.xcassets */,
 				A817D0691CC9FFA500A493BF /* LaunchScreen.storyboard */,
@@ -196,13 +236,16 @@
 				TargetAttributes = {
 					A817D0591CC9FFA500A493BF = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0830;
 					};
 					A817D0701CC9FFA500A493BF = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0830;
 						TestTargetID = A817D0591CC9FFA500A493BF;
 					};
 					A817D07B1CC9FFA500A493BF = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0830;
 						TestTargetID = A817D0591CC9FFA500A493BF;
 					};
 				};
@@ -259,9 +302,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83E5A39E1F9F3B9B0010E643 /* JHIndexStudy.swift in Sources */,
+				83E5A39C1F9F24EA0010E643 /* JHPropertyStudy.swift in Sources */,
+				83E5A3A41FA074E10010E643 /* JHOptionalStudy.swift in Sources */,
+				83E5A39A1F9F19950010E643 /* JHEquatable.swift in Sources */,
+				83E5A3A01F9F660C0010E643 /* JHInheritStudy.swift in Sources */,
 				A817D0601CC9FFA500A493BF /* ViewController.swift in Sources */,
+				83E5A3A21F9F6C010010E643 /* JHConsstructStudy.swift in Sources */,
 				A817D05E1CC9FFA500A493BF /* AppDelegate.swift in Sources */,
+				83E5A3571F9A0F9C0010E643 /* JHBaseStudy.swift in Sources */,
 				A817D0661CC9FFA500A493BF /* JHSwiftProject.xcdatamodeld in Sources */,
+				83E5A3981F9EE77D0010E643 /* JHEnumStudy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +458,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MyOwnProject.JHSwiftProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -418,6 +470,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MyOwnProject.JHSwiftProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -429,6 +482,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MyOwnProject.JHSwiftProjectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JHSwiftProject.app/JHSwiftProject";
 			};
 			name = Debug;
@@ -441,6 +495,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MyOwnProject.JHSwiftProjectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JHSwiftProject.app/JHSwiftProject";
 			};
 			name = Release;
@@ -452,6 +507,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MyOwnProject.JHSwiftProjectUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = JHSwiftProject;
 			};
 			name = Debug;
@@ -463,6 +519,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MyOwnProject.JHSwiftProjectUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = JHSwiftProject;
 			};
 			name = Release;
@@ -486,6 +543,7 @@
 				A817D0871CC9FFA500A493BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A817D0881CC9FFA500A493BF /* Build configuration list for PBXNativeTarget "JHSwiftProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +552,7 @@
 				A817D08A1CC9FFA500A493BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A817D08B1CC9FFA500A493BF /* Build configuration list for PBXNativeTarget "JHSwiftProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +561,7 @@
 				A817D08D1CC9FFA500A493BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
