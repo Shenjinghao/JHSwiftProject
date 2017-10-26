@@ -20,6 +20,9 @@ class ViewController: UIViewController {
         JHInheritStudy.init()
         JHConsstructStudy.init()
         JHOptionalStudy.init()
+        JHARCStudy.init()
+        JHExtensionStudy.init()
+        JHProtocolStudy.init()
     }
 
     override func didReceiveMemoryWarning() {

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		831A285E1FA0BD090051F3B8 /* JHARCStudy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831A285D1FA0BD090051F3B8 /* JHARCStudy.swift */; };
+		831A28601FA1C4630051F3B8 /* JHExtensionStudy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831A285F1FA1C4630051F3B8 /* JHExtensionStudy.swift */; };
+		831A28621FA1CC3E0051F3B8 /* JHProtocolStudy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831A28611FA1CC3E0051F3B8 /* JHProtocolStudy.swift */; };
 		83E5A3571F9A0F9C0010E643 /* JHBaseStudy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E5A3561F9A0F9C0010E643 /* JHBaseStudy.swift */; };
 		83E5A3981F9EE77D0010E643 /* JHEnumStudy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E5A3971F9EE77D0010E643 /* JHEnumStudy.swift */; };
 		83E5A39A1F9F19950010E643 /* JHEquatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E5A3991F9F19950010E643 /* JHEquatable.swift */; };
@@ -43,6 +46,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		831A285D1FA0BD090051F3B8 /* JHARCStudy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHARCStudy.swift; sourceTree = "<group>"; };
+		831A285F1FA1C4630051F3B8 /* JHExtensionStudy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHExtensionStudy.swift; sourceTree = "<group>"; };
+		831A28611FA1CC3E0051F3B8 /* JHProtocolStudy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHProtocolStudy.swift; sourceTree = "<group>"; };
 		83E5A3561F9A0F9C0010E643 /* JHBaseStudy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHBaseStudy.swift; sourceTree = "<group>"; };
 		83E5A3971F9EE77D0010E643 /* JHEnumStudy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHEnumStudy.swift; sourceTree = "<group>"; };
 		83E5A3991F9F19950010E643 /* JHEquatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHEquatable.swift; sourceTree = "<group>"; };
@@ -110,6 +116,9 @@
 				83E5A39F1F9F660C0010E643 /* JHInheritStudy.swift */,
 				83E5A3A11F9F6C010010E643 /* JHConsstructStudy.swift */,
 				83E5A3A31FA074E10010E643 /* JHOptionalStudy.swift */,
+				831A285D1FA0BD090051F3B8 /* JHARCStudy.swift */,
+				831A285F1FA1C4630051F3B8 /* JHExtensionStudy.swift */,
+				831A28611FA1CC3E0051F3B8 /* JHProtocolStudy.swift */,
 			);
 			name = BaseStudy;
 			sourceTree = "<group>";
@@ -302,10 +311,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				831A285E1FA0BD090051F3B8 /* JHARCStudy.swift in Sources */,
 				83E5A39E1F9F3B9B0010E643 /* JHIndexStudy.swift in Sources */,
 				83E5A39C1F9F24EA0010E643 /* JHPropertyStudy.swift in Sources */,
 				83E5A3A41FA074E10010E643 /* JHOptionalStudy.swift in Sources */,
 				83E5A39A1F9F19950010E643 /* JHEquatable.swift in Sources */,
+				831A28621FA1CC3E0051F3B8 /* JHProtocolStudy.swift in Sources */,
 				83E5A3A01F9F660C0010E643 /* JHInheritStudy.swift in Sources */,
 				A817D0601CC9FFA500A493BF /* ViewController.swift in Sources */,
 				83E5A3A21F9F6C010010E643 /* JHConsstructStudy.swift in Sources */,
@@ -313,6 +324,7 @@
 				83E5A3571F9A0F9C0010E643 /* JHBaseStudy.swift in Sources */,
 				A817D0661CC9FFA500A493BF /* JHSwiftProject.xcdatamodeld in Sources */,
 				83E5A3981F9EE77D0010E643 /* JHEnumStudy.swift in Sources */,
+				831A28601FA1C4630051F3B8 /* JHExtensionStudy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
