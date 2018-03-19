@@ -46,7 +46,7 @@ class ViewController: UIViewController {
         let playerLayer = AVPlayerLayer(player: playerView)
         playerLayer.frame = self.view.bounds
         //添加到界面上
-        self.view.layer.addSublayer(playerLayer)
+//        self.view.layer.addSublayer(playerLayer)
 
         playViewController.player = playerView
         self.present(playViewController, animated: true) {

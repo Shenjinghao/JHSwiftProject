@@ -14,7 +14,8 @@
 		83163C4C205BB406006FEA8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83163C4A205BB406006FEA8C /* LaunchScreen.storyboard */; };
 		83163C57205BB406006FEA8C /* JHLesson3___videoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83163C56205BB406006FEA8C /* JHLesson3___videoTests.swift */; };
 		83163C62205BB406006FEA8C /* JHLesson3___videoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83163C61205BB406006FEA8C /* JHLesson3___videoUITests.swift */; };
-		83163C73205BCDF8006FEA8C /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 83163C72205BCDF7006FEA8C /* video.mp4 */; };
+		83163C73205BCDF8006FEA8C /* 1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 83163C72205BCDF7006FEA8C /* 1.mp4 */; };
+		8323B0E0205F60D10056D002 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8323B0DF205F60D10056D002 /* video.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +49,8 @@
 		83163C5D205BB406006FEA8C /* JHLesson3 - videoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JHLesson3 - videoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83163C61205BB406006FEA8C /* JHLesson3___videoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JHLesson3___videoUITests.swift"; sourceTree = "<group>"; };
 		83163C63205BB406006FEA8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		83163C72205BCDF7006FEA8C /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
+		83163C72205BCDF7006FEA8C /* 1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.mp4; sourceTree = "<group>"; };
+		8323B0DF205F60D10056D002 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +101,8 @@
 		83163C40205BB406006FEA8C /* JHLesson3 - video */ = {
 			isa = PBXGroup;
 			children = (
-				83163C72205BCDF7006FEA8C /* video.mp4 */,
+				8323B0DF205F60D10056D002 /* video.mp4 */,
+				83163C72205BCDF7006FEA8C /* 1.mp4 */,
 				83163C41205BB406006FEA8C /* AppDelegate.swift */,
 				83163C43205BB406006FEA8C /* ViewController.swift */,
 				83163C45205BB406006FEA8C /* Main.storyboard */,
@@ -238,7 +241,8 @@
 				83163C4C205BB406006FEA8C /* LaunchScreen.storyboard in Resources */,
 				83163C49205BB406006FEA8C /* Assets.xcassets in Resources */,
 				83163C47205BB406006FEA8C /* Main.storyboard in Resources */,
-				83163C73205BCDF8006FEA8C /* video.mp4 in Resources */,
+				8323B0E0205F60D10056D002 /* video.mp4 in Resources */,
+				83163C73205BCDF8006FEA8C /* 1.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
