@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JHLesson5 - Scroll/CenterViewController.swift"
+            timestampString = "543209869.4707201"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "5"
+            endingLineNumber = "5"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "JHLesson5___Scroll.CenterViewController.__deallocating_deinit"
+                  moduleName = "JHLesson5 - Scroll"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zuoyebang/Desktop/%E4%BD%9C%E4%B8%9A%E5%B8%AE%E5%B7%A5%E4%BD%9C%E6%96%87%E4%BB%B6/%E5%AD%A6%E4%B9%A0%E6%96%87%E4%BB%B6%E5%A4%B9/JHSwiftProject/JHLesson5%20-%20Scroll/JHLesson5%20-%20Scroll/CenterViewController.swift"
+                  timestampString = "543209268.494619"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "JHLesson5___Scroll.CenterViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; JHLesson5___Scroll.CenterViewController"
+                  moduleName = "JHLesson5 - Scroll"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zuoyebang/Desktop/%E4%BD%9C%E4%B8%9A%E5%B8%AE%E5%B7%A5%E4%BD%9C%E6%96%87%E4%BB%B6/%E5%AD%A6%E4%B9%A0%E6%96%87%E4%BB%B6%E5%A4%B9/JHSwiftProject/JHLesson5%20-%20Scroll/JHLesson5%20-%20Scroll/CenterViewController.swift"
+                  timestampString = "543209268.498095"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "JHLesson5___Scroll.CenterViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; JHLesson5___Scroll.CenterViewController"
+                  moduleName = "JHLesson5 - Scroll"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zuoyebang/Desktop/%E4%BD%9C%E4%B8%9A%E5%B8%AE%E5%B7%A5%E4%BD%9C%E6%96%87%E4%BB%B6/%E5%AD%A6%E4%B9%A0%E6%96%87%E4%BB%B6%E5%A4%B9/JHSwiftProject/JHLesson5%20-%20Scroll/JHLesson5%20-%20Scroll/CenterViewController.swift"
+                  timestampString = "543209268.5025131"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "46">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "JHLesson5___Scroll.CenterViewController.__allocating_init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;JHLesson5___Scroll.CenterViewController&gt;"
+                  moduleName = "JHLesson5 - Scroll"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zuoyebang/Desktop/%E4%BD%9C%E4%B8%9A%E5%B8%AE%E5%B7%A5%E4%BD%9C%E6%96%87%E4%BB%B6/%E5%AD%A6%E4%B9%A0%E6%96%87%E4%BB%B6%E5%A4%B9/JHSwiftProject/JHLesson5%20-%20Scroll/JHLesson5%20-%20Scroll/CenterViewController.swift"
+                  timestampString = "543209268.505843"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "JHLesson5___Scroll.CenterViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;JHLesson5___Scroll.CenterViewController&gt;"
+                  moduleName = "JHLesson5 - Scroll"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zuoyebang/Desktop/%E4%BD%9C%E4%B8%9A%E5%B8%AE%E5%B7%A5%E4%BD%9C%E6%96%87%E4%BB%B6/%E5%AD%A6%E4%B9%A0%E6%96%87%E4%BB%B6%E5%A4%B9/JHSwiftProject/JHLesson5%20-%20Scroll/JHLesson5%20-%20Scroll/CenterViewController.swift"
+                  timestampString = "543209268.5082181"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "21">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.SwiftErrorBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

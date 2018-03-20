@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8323B12C2060A8D70056D002 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8323B12B2060A8D70056D002 /* AppDelegate.swift */; };
+		8323B12E2060A8D70056D002 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8323B12D2060A8D70056D002 /* ViewController.swift */; };
+		8323B1312060A8D70056D002 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8323B12F2060A8D70056D002 /* Main.storyboard */; };
+		8323B1332060A8D70056D002 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8323B1322060A8D70056D002 /* Assets.xcassets */; };
+		8323B1362060A8D70056D002 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8323B1342060A8D70056D002 /* LaunchScreen.storyboard */; };
+		8323B1412060A8D70056D002 /* JHLesson5___ScrollTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8323B1402060A8D70056D002 /* JHLesson5___ScrollTests.swift */; };
+		8323B14C2060A8D70056D002 /* JHLesson5___ScrollUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8323B14B2060A8D70056D002 /* JHLesson5___ScrollUITests.swift */; };
+		8323B15A2060A90C0056D002 /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8323B1592060A90C0056D002 /* LeftViewController.swift */; };
+		8323B15C2060A9150056D002 /* RightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8323B15B2060A9150056D002 /* RightViewController.swift */; };
+		8323B15E2060A9340056D002 /* CenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8323B15D2060A9340056D002 /* CenterViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8323B13D2060A8D70056D002 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8323B1202060A8D60056D002 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8323B1272060A8D70056D002;
+			remoteInfo = "JHLesson5 - Scroll";
+		};
+		8323B1482060A8D70056D002 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8323B1202060A8D60056D002 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8323B1272060A8D70056D002;
+			remoteInfo = "JHLesson5 - Scroll";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8323B1282060A8D70056D002 /* JHLesson5 - Scroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JHLesson5 - Scroll.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8323B12B2060A8D70056D002 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8323B12D2060A8D70056D002 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8323B1302060A8D70056D002 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8323B1322060A8D70056D002 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8323B1352060A8D70056D002 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8323B1372060A8D70056D002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8323B13C2060A8D70056D002 /* JHLesson5 - ScrollTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JHLesson5 - ScrollTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8323B1402060A8D70056D002 /* JHLesson5___ScrollTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JHLesson5___ScrollTests.swift"; sourceTree = "<group>"; };
+		8323B1422060A8D70056D002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8323B1472060A8D70056D002 /* JHLesson5 - ScrollUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JHLesson5 - ScrollUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8323B14B2060A8D70056D002 /* JHLesson5___ScrollUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JHLesson5___ScrollUITests.swift"; sourceTree = "<group>"; };
+		8323B14D2060A8D70056D002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8323B1592060A90C0056D002 /* LeftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
+		8323B15B2060A9150056D002 /* RightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightViewController.swift; sourceTree = "<group>"; };
+		8323B15D2060A9340056D002 /* CenterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8323B1252060A8D70056D002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8323B1392060A8D70056D002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8323B1442060A8D70056D002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8323B11F2060A8D60056D002 = {
+			isa = PBXGroup;
+			children = (
+				8323B12A2060A8D70056D002 /* JHLesson5 - Scroll */,
+				8323B13F2060A8D70056D002 /* JHLesson5 - ScrollTests */,
+				8323B14A2060A8D70056D002 /* JHLesson5 - ScrollUITests */,
+				8323B1292060A8D70056D002 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8323B1292060A8D70056D002 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8323B1282060A8D70056D002 /* JHLesson5 - Scroll.app */,
+				8323B13C2060A8D70056D002 /* JHLesson5 - ScrollTests.xctest */,
+				8323B1472060A8D70056D002 /* JHLesson5 - ScrollUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8323B12A2060A8D70056D002 /* JHLesson5 - Scroll */ = {
+			isa = PBXGroup;
+			children = (
+				8323B12B2060A8D70056D002 /* AppDelegate.swift */,
+				8323B12D2060A8D70056D002 /* ViewController.swift */,
+				8323B1592060A90C0056D002 /* LeftViewController.swift */,
+				8323B15B2060A9150056D002 /* RightViewController.swift */,
+				8323B15D2060A9340056D002 /* CenterViewController.swift */,
+				8323B12F2060A8D70056D002 /* Main.storyboard */,
+				8323B1322060A8D70056D002 /* Assets.xcassets */,
+				8323B1342060A8D70056D002 /* LaunchScreen.storyboard */,
+				8323B1372060A8D70056D002 /* Info.plist */,
+			);
+			path = "JHLesson5 - Scroll";
+			sourceTree = "<group>";
+		};
+		8323B13F2060A8D70056D002 /* JHLesson5 - ScrollTests */ = {
+			isa = PBXGroup;
+			children = (
+				8323B1402060A8D70056D002 /* JHLesson5___ScrollTests.swift */,
+				8323B1422060A8D70056D002 /* Info.plist */,
+			);
+			path = "JHLesson5 - ScrollTests";
+			sourceTree = "<group>";
+		};
+		8323B14A2060A8D70056D002 /* JHLesson5 - ScrollUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8323B14B2060A8D70056D002 /* JHLesson5___ScrollUITests.swift */,
+				8323B14D2060A8D70056D002 /* Info.plist */,
+			);
+			path = "JHLesson5 - ScrollUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8323B1272060A8D70056D002 /* JHLesson5 - Scroll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8323B1502060A8D70056D002 /* Build configuration list for PBXNativeTarget "JHLesson5 - Scroll" */;
+			buildPhases = (
+				8323B1242060A8D70056D002 /* Sources */,
+				8323B1252060A8D70056D002 /* Frameworks */,
+				8323B1262060A8D70056D002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JHLesson5 - Scroll";
+			productName = "JHLesson5 - Scroll";
+			productReference = 8323B1282060A8D70056D002 /* JHLesson5 - Scroll.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8323B13B2060A8D70056D002 /* JHLesson5 - ScrollTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8323B1532060A8D70056D002 /* Build configuration list for PBXNativeTarget "JHLesson5 - ScrollTests" */;
+			buildPhases = (
+				8323B1382060A8D70056D002 /* Sources */,
+				8323B1392060A8D70056D002 /* Frameworks */,
+				8323B13A2060A8D70056D002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8323B13E2060A8D70056D002 /* PBXTargetDependency */,
+			);
+			name = "JHLesson5 - ScrollTests";
+			productName = "JHLesson5 - ScrollTests";
+			productReference = 8323B13C2060A8D70056D002 /* JHLesson5 - ScrollTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8323B1462060A8D70056D002 /* JHLesson5 - ScrollUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8323B1562060A8D70056D002 /* Build configuration list for PBXNativeTarget "JHLesson5 - ScrollUITests" */;
+			buildPhases = (
+				8323B1432060A8D70056D002 /* Sources */,
+				8323B1442060A8D70056D002 /* Frameworks */,
+				8323B1452060A8D70056D002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8323B1492060A8D70056D002 /* PBXTargetDependency */,
+			);
+			name = "JHLesson5 - ScrollUITests";
+			productName = "JHLesson5 - ScrollUITests";
+			productReference = 8323B1472060A8D70056D002 /* JHLesson5 - ScrollUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8323B1202060A8D60056D002 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = JHSwift;
+				TargetAttributes = {
+					8323B1272060A8D70056D002 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					8323B13B2060A8D70056D002 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8323B1272060A8D70056D002;
+					};
+					8323B1462060A8D70056D002 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8323B1272060A8D70056D002;
+					};
+				};
+			};
+			buildConfigurationList = 8323B1232060A8D60056D002 /* Build configuration list for PBXProject "JHLesson5 - Scroll" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8323B11F2060A8D60056D002;
+			productRefGroup = 8323B1292060A8D70056D002 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8323B1272060A8D70056D002 /* JHLesson5 - Scroll */,
+				8323B13B2060A8D70056D002 /* JHLesson5 - ScrollTests */,
+				8323B1462060A8D70056D002 /* JHLesson5 - ScrollUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8323B1262060A8D70056D002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8323B1362060A8D70056D002 /* LaunchScreen.storyboard in Resources */,
+				8323B1332060A8D70056D002 /* Assets.xcassets in Resources */,
+				8323B1312060A8D70056D002 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8323B13A2060A8D70056D002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8323B1452060A8D70056D002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8323B1242060A8D70056D002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8323B15A2060A90C0056D002 /* LeftViewController.swift in Sources */,
+				8323B15C2060A9150056D002 /* RightViewController.swift in Sources */,
+				8323B12E2060A8D70056D002 /* ViewController.swift in Sources */,
+				8323B12C2060A8D70056D002 /* AppDelegate.swift in Sources */,
+				8323B15E2060A9340056D002 /* CenterViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8323B1382060A8D70056D002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8323B1412060A8D70056D002 /* JHLesson5___ScrollTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8323B1432060A8D70056D002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8323B14C2060A8D70056D002 /* JHLesson5___ScrollUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8323B13E2060A8D70056D002 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8323B1272060A8D70056D002 /* JHLesson5 - Scroll */;
+			targetProxy = 8323B13D2060A8D70056D002 /* PBXContainerItemProxy */;
+		};
+		8323B1492060A8D70056D002 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8323B1272060A8D70056D002 /* JHLesson5 - Scroll */;
+			targetProxy = 8323B1482060A8D70056D002 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8323B12F2060A8D70056D002 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8323B1302060A8D70056D002 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8323B1342060A8D70056D002 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8323B1352060A8D70056D002 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8323B14E2060A8D70056D002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8323B14F2060A8D70056D002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8323B1512060A8D70056D002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "JHLesson5 - Scroll/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JHSwift.JHLesson5---Scroll";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8323B1522060A8D70056D002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "JHLesson5 - Scroll/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JHSwift.JHLesson5---Scroll";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8323B1542060A8D70056D002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "JHLesson5 - ScrollTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JHSwift.JHLesson5---ScrollTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JHLesson5 - Scroll.app/JHLesson5 - Scroll";
+			};
+			name = Debug;
+		};
+		8323B1552060A8D70056D002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "JHLesson5 - ScrollTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JHSwift.JHLesson5---ScrollTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JHLesson5 - Scroll.app/JHLesson5 - Scroll";
+			};
+			name = Release;
+		};
+		8323B1572060A8D70056D002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "JHLesson5 - ScrollUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JHSwift.JHLesson5---ScrollUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "JHLesson5 - Scroll";
+			};
+			name = Debug;
+		};
+		8323B1582060A8D70056D002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "JHLesson5 - ScrollUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JHSwift.JHLesson5---ScrollUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "JHLesson5 - Scroll";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8323B1232060A8D60056D002 /* Build configuration list for PBXProject "JHLesson5 - Scroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8323B14E2060A8D70056D002 /* Debug */,
+				8323B14F2060A8D70056D002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8323B1502060A8D70056D002 /* Build configuration list for PBXNativeTarget "JHLesson5 - Scroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8323B1512060A8D70056D002 /* Debug */,
+				8323B1522060A8D70056D002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8323B1532060A8D70056D002 /* Build configuration list for PBXNativeTarget "JHLesson5 - ScrollTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8323B1542060A8D70056D002 /* Debug */,
+				8323B1552060A8D70056D002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8323B1562060A8D70056D002 /* Build configuration list for PBXNativeTarget "JHLesson5 - ScrollUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8323B1572060A8D70056D002 /* Debug */,
+				8323B1582060A8D70056D002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8323B1202060A8D60056D002 /* Project object */;
+}
