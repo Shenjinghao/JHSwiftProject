@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8323B16C2060BCA10056D002 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8323B16B2060BCA10056D002 /* AppDelegate.swift */; };
+		8323B16E2060BCA10056D002 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8323B16D2060BCA10056D002 /* ViewController.swift */; };
+		8323B1712060BCA10056D002 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8323B16F2060BCA10056D002 /* Main.storyboard */; };
+		8323B1732060BCA10056D002 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8323B1722060BCA10056D002 /* Assets.xcassets */; };
+		8323B1762060BCA10056D002 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8323B1742060BCA10056D002 /* LaunchScreen.storyboard */; };
+		8323B1812060BCA10056D002 /* JHLesson6___MyLocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8323B1802060BCA10056D002 /* JHLesson6___MyLocationTests.swift */; };
+		8323B18C2060BCA10056D002 /* JHLesson6___MyLocationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8323B18B2060BCA10056D002 /* JHLesson6___MyLocationUITests.swift */; };
+		8323B21120623ABE0056D002 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8323B1D42060F25F0056D002 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8323B17D2060BCA10056D002 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8323B1602060BCA10056D002 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8323B1672060BCA10056D002;
+			remoteInfo = "JHLesson6 - MyLocation";
+		};
+		8323B1882060BCA10056D002 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8323B1602060BCA10056D002 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8323B1672060BCA10056D002;
+			remoteInfo = "JHLesson6 - MyLocation";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8323B1682060BCA10056D002 /* JHLesson6 - MyLocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JHLesson6 - MyLocation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8323B16B2060BCA10056D002 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8323B16D2060BCA10056D002 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8323B1702060BCA10056D002 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8323B1722060BCA10056D002 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8323B1752060BCA10056D002 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8323B1772060BCA10056D002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8323B17C2060BCA10056D002 /* JHLesson6 - MyLocationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JHLesson6 - MyLocationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8323B1802060BCA10056D002 /* JHLesson6___MyLocationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JHLesson6___MyLocationTests.swift"; sourceTree = "<group>"; };
+		8323B1822060BCA10056D002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8323B1872060BCA10056D002 /* JHLesson6 - MyLocationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JHLesson6 - MyLocationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8323B18B2060BCA10056D002 /* JHLesson6___MyLocationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JHLesson6___MyLocationUITests.swift"; sourceTree = "<group>"; };
+		8323B18D2060BCA10056D002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8323B1D42060F25F0056D002 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8323B1652060BCA10056D002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8323B21120623ABE0056D002 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8323B1792060BCA10056D002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8323B1842060BCA10056D002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8323B15F2060BCA10056D002 = {
+			isa = PBXGroup;
+			children = (
+				8323B16A2060BCA10056D002 /* JHLesson6 - MyLocation */,
+				8323B17F2060BCA10056D002 /* JHLesson6 - MyLocationTests */,
+				8323B18A2060BCA10056D002 /* JHLesson6 - MyLocationUITests */,
+				8323B1692060BCA10056D002 /* Products */,
+				8323B1D32060F25E0056D002 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8323B1692060BCA10056D002 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8323B1682060BCA10056D002 /* JHLesson6 - MyLocation.app */,
+				8323B17C2060BCA10056D002 /* JHLesson6 - MyLocationTests.xctest */,
+				8323B1872060BCA10056D002 /* JHLesson6 - MyLocationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8323B16A2060BCA10056D002 /* JHLesson6 - MyLocation */ = {
+			isa = PBXGroup;
+			children = (
+				8323B16B2060BCA10056D002 /* AppDelegate.swift */,
+				8323B16D2060BCA10056D002 /* ViewController.swift */,
+				8323B16F2060BCA10056D002 /* Main.storyboard */,
+				8323B1722060BCA10056D002 /* Assets.xcassets */,
+				8323B1742060BCA10056D002 /* LaunchScreen.storyboard */,
+				8323B1772060BCA10056D002 /* Info.plist */,
+			);
+			path = "JHLesson6 - MyLocation";
+			sourceTree = "<group>";
+		};
+		8323B17F2060BCA10056D002 /* JHLesson6 - MyLocationTests */ = {
+			isa = PBXGroup;
+			children = (
+				8323B1802060BCA10056D002 /* JHLesson6___MyLocationTests.swift */,
+				8323B1822060BCA10056D002 /* Info.plist */,
+			);
+			path = "JHLesson6 - MyLocationTests";
+			sourceTree = "<group>";
+		};
+		8323B18A2060BCA10056D002 /* JHLesson6 - MyLocationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8323B18B2060BCA10056D002 /* JHLesson6___MyLocationUITests.swift */,
+				8323B18D2060BCA10056D002 /* Info.plist */,
+			);
+			path = "JHLesson6 - MyLocationUITests";
+			sourceTree = "<group>";
+		};
+		8323B1D32060F25E0056D002 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8323B1D42060F25F0056D002 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8323B1672060BCA10056D002 /* JHLesson6 - MyLocation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8323B1902060BCA10056D002 /* Build configuration list for PBXNativeTarget "JHLesson6 - MyLocation" */;
+			buildPhases = (
+				8323B1642060BCA10056D002 /* Sources */,
+				8323B1652060BCA10056D002 /* Frameworks */,
+				8323B1662060BCA10056D002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JHLesson6 - MyLocation";
+			productName = "JHLesson6 - MyLocation";
+			productReference = 8323B1682060BCA10056D002 /* JHLesson6 - MyLocation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8323B17B2060BCA10056D002 /* JHLesson6 - MyLocationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8323B1932060BCA10056D002 /* Build configuration list for PBXNativeTarget "JHLesson6 - MyLocationTests" */;
+			buildPhases = (
+				8323B1782060BCA10056D002 /* Sources */,
+				8323B1792060BCA10056D002 /* Frameworks */,
+				8323B17A2060BCA10056D002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8323B17E2060BCA10056D002 /* PBXTargetDependency */,
+			);
+			name = "JHLesson6 - MyLocationTests";
+			productName = "JHLesson6 - MyLocationTests";
+			productReference = 8323B17C2060BCA10056D002 /* JHLesson6 - MyLocationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8323B1862060BCA10056D002 /* JHLesson6 - MyLocationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8323B1962060BCA10056D002 /* Build configuration list for PBXNativeTarget "JHLesson6 - MyLocationUITests" */;
+			buildPhases = (
+				8323B1832060BCA10056D002 /* Sources */,
+				8323B1842060BCA10056D002 /* Frameworks */,
+				8323B1852060BCA10056D002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8323B1892060BCA10056D002 /* PBXTargetDependency */,
+			);
+			name = "JHLesson6 - MyLocationUITests";
+			productName = "JHLesson6 - MyLocationUITests";
+			productReference = 8323B1872060BCA10056D002 /* JHLesson6 - MyLocationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8323B1602060BCA10056D002 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = JHSwift;
+				TargetAttributes = {
+					8323B1672060BCA10056D002 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					8323B17B2060BCA10056D002 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8323B1672060BCA10056D002;
+					};
+					8323B1862060BCA10056D002 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8323B1672060BCA10056D002;
+					};
+				};
+			};
+			buildConfigurationList = 8323B1632060BCA10056D002 /* Build configuration list for PBXProject "JHLesson6 - MyLocation" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8323B15F2060BCA10056D002;
+			productRefGroup = 8323B1692060BCA10056D002 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8323B1672060BCA10056D002 /* JHLesson6 - MyLocation */,
+				8323B17B2060BCA10056D002 /* JHLesson6 - MyLocationTests */,
+				8323B1862060BCA10056D002 /* JHLesson6 - MyLocationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8323B1662060BCA10056D002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8323B1762060BCA10056D002 /* LaunchScreen.storyboard in Resources */,
+				8323B1732060BCA10056D002 /* Assets.xcassets in Resources */,
+				8323B1712060BCA10056D002 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8323B17A2060BCA10056D002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8323B1852060BCA10056D002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8323B1642060BCA10056D002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8323B16E2060BCA10056D002 /* ViewController.swift in Sources */,
+				8323B16C2060BCA10056D002 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8323B1782060BCA10056D002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8323B1812060BCA10056D002 /* JHLesson6___MyLocationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8323B1832060BCA10056D002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8323B18C2060BCA10056D002 /* JHLesson6___MyLocationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8323B17E2060BCA10056D002 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8323B1672060BCA10056D002 /* JHLesson6 - MyLocation */;
+			targetProxy = 8323B17D2060BCA10056D002 /* PBXContainerItemProxy */;
+		};
+		8323B1892060BCA10056D002 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8323B1672060BCA10056D002 /* JHLesson6 - MyLocation */;
+			targetProxy = 8323B1882060BCA10056D002 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8323B16F2060BCA10056D002 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8323B1702060BCA10056D002 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8323B1742060BCA10056D002 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8323B1752060BCA10056D002 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8323B18E2060BCA10056D002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8323B18F2060BCA10056D002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8323B1912060BCA10056D002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NCL7PFSHB3;
+				INFOPLIST_FILE = "JHLesson6 - MyLocation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JHLesson6---MyLocation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8323B1922060BCA10056D002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NCL7PFSHB3;
+				INFOPLIST_FILE = "JHLesson6 - MyLocation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JHLesson6---MyLocation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8323B1942060BCA10056D002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "JHLesson6 - MyLocationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JHSwift.JHLesson6---MyLocationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JHLesson6 - MyLocation.app/JHLesson6 - MyLocation";
+			};
+			name = Debug;
+		};
+		8323B1952060BCA10056D002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "JHLesson6 - MyLocationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JHSwift.JHLesson6---MyLocationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JHLesson6 - MyLocation.app/JHLesson6 - MyLocation";
+			};
+			name = Release;
+		};
+		8323B1972060BCA10056D002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "JHLesson6 - MyLocationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JHSwift.JHLesson6---MyLocationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "JHLesson6 - MyLocation";
+			};
+			name = Debug;
+		};
+		8323B1982060BCA10056D002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "JHLesson6 - MyLocationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JHSwift.JHLesson6---MyLocationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "JHLesson6 - MyLocation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8323B1632060BCA10056D002 /* Build configuration list for PBXProject "JHLesson6 - MyLocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8323B18E2060BCA10056D002 /* Debug */,
+				8323B18F2060BCA10056D002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8323B1902060BCA10056D002 /* Build configuration list for PBXNativeTarget "JHLesson6 - MyLocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8323B1912060BCA10056D002 /* Debug */,
+				8323B1922060BCA10056D002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8323B1932060BCA10056D002 /* Build configuration list for PBXNativeTarget "JHLesson6 - MyLocationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8323B1942060BCA10056D002 /* Debug */,
+				8323B1952060BCA10056D002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8323B1962060BCA10056D002 /* Build configuration list for PBXNativeTarget "JHLesson6 - MyLocationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8323B1972060BCA10056D002 /* Debug */,
+				8323B1982060BCA10056D002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8323B1602060BCA10056D002 /* Project object */;
+}

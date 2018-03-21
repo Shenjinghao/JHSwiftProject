@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8323B1E32061FA080056D002 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8323B1E22061FA080056D002 /* AppDelegate.swift */; };
+		8323B1E52061FA080056D002 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8323B1E42061FA080056D002 /* ViewController.swift */; };
+		8323B1E82061FA080056D002 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8323B1E62061FA080056D002 /* Main.storyboard */; };
+		8323B1EA2061FA080056D002 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8323B1E92061FA080056D002 /* Assets.xcassets */; };
+		8323B1ED2061FA080056D002 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8323B1EB2061FA080056D002 /* LaunchScreen.storyboard */; };
+		8323B1F82061FA090056D002 /* JHLesson8___ImageManageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8323B1F72061FA090056D002 /* JHLesson8___ImageManageTests.swift */; };
+		8323B2032061FA090056D002 /* JHLesson8___ImageManageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8323B2022061FA090056D002 /* JHLesson8___ImageManageUITests.swift */; };
+		8323B21320624B6E0056D002 /* ImagePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8323B21220624B6E0056D002 /* ImagePreviewViewController.swift */; };
+		8323B21520624C820056D002 /* ImagePreviewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8323B21420624C820056D002 /* ImagePreviewCollectionViewCell.swift */; };
+		8323B21920624D550056D002 /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8323B21620624D550056D002 /* image1.jpg */; };
+		8323B21A20624D550056D002 /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8323B21720624D550056D002 /* image2.jpg */; };
+		8323B21B20624D550056D002 /* image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8323B21820624D550056D002 /* image3.jpg */; };
+		8323B21D20624FF90056D002 /* Steve@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8323B21C20624FF90056D002 /* Steve@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8323B1F42061FA080056D002 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8323B1D72061FA080056D002 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8323B1DE2061FA080056D002;
+			remoteInfo = "JHLesson8 - ImageManage";
+		};
+		8323B1FF2061FA090056D002 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8323B1D72061FA080056D002 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8323B1DE2061FA080056D002;
+			remoteInfo = "JHLesson8 - ImageManage";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8323B1DF2061FA080056D002 /* JHLesson8 - ImageManage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JHLesson8 - ImageManage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8323B1E22061FA080056D002 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8323B1E42061FA080056D002 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8323B1E72061FA080056D002 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8323B1E92061FA080056D002 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8323B1EC2061FA080056D002 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8323B1EE2061FA080056D002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8323B1F32061FA080056D002 /* JHLesson8 - ImageManageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JHLesson8 - ImageManageTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8323B1F72061FA090056D002 /* JHLesson8___ImageManageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JHLesson8___ImageManageTests.swift"; sourceTree = "<group>"; };
+		8323B1F92061FA090056D002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8323B1FE2061FA090056D002 /* JHLesson8 - ImageManageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JHLesson8 - ImageManageUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8323B2022061FA090056D002 /* JHLesson8___ImageManageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JHLesson8___ImageManageUITests.swift"; sourceTree = "<group>"; };
+		8323B2042061FA090056D002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8323B21220624B6E0056D002 /* ImagePreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePreviewViewController.swift; sourceTree = "<group>"; };
+		8323B21420624C820056D002 /* ImagePreviewCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePreviewCollectionViewCell.swift; sourceTree = "<group>"; };
+		8323B21620624D550056D002 /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
+		8323B21720624D550056D002 /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpg; sourceTree = "<group>"; };
+		8323B21820624D550056D002 /* image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image3.jpg; sourceTree = "<group>"; };
+		8323B21C20624FF90056D002 /* Steve@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Steve@2x.png"; path = "Assets.xcassets/Steve.imageset/Steve@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8323B1DC2061FA080056D002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8323B1F02061FA080056D002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8323B1FB2061FA090056D002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8323B1D62061FA080056D002 = {
+			isa = PBXGroup;
+			children = (
+				8323B1E12061FA080056D002 /* JHLesson8 - ImageManage */,
+				8323B1F62061FA090056D002 /* JHLesson8 - ImageManageTests */,
+				8323B2012061FA090056D002 /* JHLesson8 - ImageManageUITests */,
+				8323B1E02061FA080056D002 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8323B1E02061FA080056D002 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8323B1DF2061FA080056D002 /* JHLesson8 - ImageManage.app */,
+				8323B1F32061FA080056D002 /* JHLesson8 - ImageManageTests.xctest */,
+				8323B1FE2061FA090056D002 /* JHLesson8 - ImageManageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8323B1E12061FA080056D002 /* JHLesson8 - ImageManage */ = {
+			isa = PBXGroup;
+			children = (
+				8323B21620624D550056D002 /* image1.jpg */,
+				8323B21720624D550056D002 /* image2.jpg */,
+				8323B21820624D550056D002 /* image3.jpg */,
+				8323B21C20624FF90056D002 /* Steve@2x.png */,
+				8323B1E22061FA080056D002 /* AppDelegate.swift */,
+				8323B1E42061FA080056D002 /* ViewController.swift */,
+				8323B21220624B6E0056D002 /* ImagePreviewViewController.swift */,
+				8323B21420624C820056D002 /* ImagePreviewCollectionViewCell.swift */,
+				8323B1E62061FA080056D002 /* Main.storyboard */,
+				8323B1E92061FA080056D002 /* Assets.xcassets */,
+				8323B1EB2061FA080056D002 /* LaunchScreen.storyboard */,
+				8323B1EE2061FA080056D002 /* Info.plist */,
+			);
+			path = "JHLesson8 - ImageManage";
+			sourceTree = "<group>";
+		};
+		8323B1F62061FA090056D002 /* JHLesson8 - ImageManageTests */ = {
+			isa = PBXGroup;
+			children = (
+				8323B1F72061FA090056D002 /* JHLesson8___ImageManageTests.swift */,
+				8323B1F92061FA090056D002 /* Info.plist */,
+			);
+			path = "JHLesson8 - ImageManageTests";
+			sourceTree = "<group>";
+		};
+		8323B2012061FA090056D002 /* JHLesson8 - ImageManageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8323B2022061FA090056D002 /* JHLesson8___ImageManageUITests.swift */,
+				8323B2042061FA090056D002 /* Info.plist */,
+			);
+			path = "JHLesson8 - ImageManageUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8323B1DE2061FA080056D002 /* JHLesson8 - ImageManage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8323B2072061FA090056D002 /* Build configuration list for PBXNativeTarget "JHLesson8 - ImageManage" */;
+			buildPhases = (
+				8323B1DB2061FA080056D002 /* Sources */,
+				8323B1DC2061FA080056D002 /* Frameworks */,
+				8323B1DD2061FA080056D002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JHLesson8 - ImageManage";
+			productName = "JHLesson8 - ImageManage";
+			productReference = 8323B1DF2061FA080056D002 /* JHLesson8 - ImageManage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8323B1F22061FA080056D002 /* JHLesson8 - ImageManageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8323B20A2061FA090056D002 /* Build configuration list for PBXNativeTarget "JHLesson8 - ImageManageTests" */;
+			buildPhases = (
+				8323B1EF2061FA080056D002 /* Sources */,
+				8323B1F02061FA080056D002 /* Frameworks */,
+				8323B1F12061FA080056D002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8323B1F52061FA080056D002 /* PBXTargetDependency */,
+			);
+			name = "JHLesson8 - ImageManageTests";
+			productName = "JHLesson8 - ImageManageTests";
+			productReference = 8323B1F32061FA080056D002 /* JHLesson8 - ImageManageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8323B1FD2061FA090056D002 /* JHLesson8 - ImageManageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8323B20D2061FA090056D002 /* Build configuration list for PBXNativeTarget "JHLesson8 - ImageManageUITests" */;
+			buildPhases = (
+				8323B1FA2061FA090056D002 /* Sources */,
+				8323B1FB2061FA090056D002 /* Frameworks */,
+				8323B1FC2061FA090056D002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8323B2002061FA090056D002 /* PBXTargetDependency */,
+			);
+			name = "JHLesson8 - ImageManageUITests";
+			productName = "JHLesson8 - ImageManageUITests";
+			productReference = 8323B1FE2061FA090056D002 /* JHLesson8 - ImageManageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8323B1D72061FA080056D002 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = JHSwift;
+				TargetAttributes = {
+					8323B1DE2061FA080056D002 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					8323B1F22061FA080056D002 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8323B1DE2061FA080056D002;
+					};
+					8323B1FD2061FA090056D002 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8323B1DE2061FA080056D002;
+					};
+				};
+			};
+			buildConfigurationList = 8323B1DA2061FA080056D002 /* Build configuration list for PBXProject "JHLesson8 - ImageManage" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8323B1D62061FA080056D002;
+			productRefGroup = 8323B1E02061FA080056D002 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8323B1DE2061FA080056D002 /* JHLesson8 - ImageManage */,
+				8323B1F22061FA080056D002 /* JHLesson8 - ImageManageTests */,
+				8323B1FD2061FA090056D002 /* JHLesson8 - ImageManageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8323B1DD2061FA080056D002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8323B1ED2061FA080056D002 /* LaunchScreen.storyboard in Resources */,
+				8323B21A20624D550056D002 /* image2.jpg in Resources */,
+				8323B21D20624FF90056D002 /* Steve@2x.png in Resources */,
+				8323B21920624D550056D002 /* image1.jpg in Resources */,
+				8323B21B20624D550056D002 /* image3.jpg in Resources */,
+				8323B1EA2061FA080056D002 /* Assets.xcassets in Resources */,
+				8323B1E82061FA080056D002 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8323B1F12061FA080056D002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8323B1FC2061FA090056D002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8323B1DB2061FA080056D002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8323B1E52061FA080056D002 /* ViewController.swift in Sources */,
+				8323B21320624B6E0056D002 /* ImagePreviewViewController.swift in Sources */,
+				8323B1E32061FA080056D002 /* AppDelegate.swift in Sources */,
+				8323B21520624C820056D002 /* ImagePreviewCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8323B1EF2061FA080056D002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8323B1F82061FA090056D002 /* JHLesson8___ImageManageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8323B1FA2061FA090056D002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8323B2032061FA090056D002 /* JHLesson8___ImageManageUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8323B1F52061FA080056D002 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8323B1DE2061FA080056D002 /* JHLesson8 - ImageManage */;
+			targetProxy = 8323B1F42061FA080056D002 /* PBXContainerItemProxy */;
+		};
+		8323B2002061FA090056D002 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8323B1DE2061FA080056D002 /* JHLesson8 - ImageManage */;
+			targetProxy = 8323B1FF2061FA090056D002 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8323B1E62061FA080056D002 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8323B1E72061FA080056D002 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8323B1EB2061FA080056D002 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8323B1EC2061FA080056D002 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8323B2052061FA090056D002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8323B2062061FA090056D002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8323B2082061FA090056D002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NCL7PFSHB3;
+				INFOPLIST_FILE = "JHLesson8 - ImageManage/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JHSwift.JHLesson8---ImageManage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8323B2092061FA090056D002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NCL7PFSHB3;
+				INFOPLIST_FILE = "JHLesson8 - ImageManage/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JHSwift.JHLesson8---ImageManage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8323B20B2061FA090056D002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "JHLesson8 - ImageManageTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JHSwift.JHLesson8---ImageManageTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JHLesson8 - ImageManage.app/JHLesson8 - ImageManage";
+			};
+			name = Debug;
+		};
+		8323B20C2061FA090056D002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "JHLesson8 - ImageManageTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JHSwift.JHLesson8---ImageManageTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JHLesson8 - ImageManage.app/JHLesson8 - ImageManage";
+			};
+			name = Release;
+		};
+		8323B20E2061FA090056D002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "JHLesson8 - ImageManageUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JHSwift.JHLesson8---ImageManageUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "JHLesson8 - ImageManage";
+			};
+			name = Debug;
+		};
+		8323B20F2061FA090056D002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "JHLesson8 - ImageManageUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JHSwift.JHLesson8---ImageManageUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "JHLesson8 - ImageManage";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8323B1DA2061FA080056D002 /* Build configuration list for PBXProject "JHLesson8 - ImageManage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8323B2052061FA090056D002 /* Debug */,
+				8323B2062061FA090056D002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8323B2072061FA090056D002 /* Build configuration list for PBXNativeTarget "JHLesson8 - ImageManage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8323B2082061FA090056D002 /* Debug */,
+				8323B2092061FA090056D002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8323B20A2061FA090056D002 /* Build configuration list for PBXNativeTarget "JHLesson8 - ImageManageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8323B20B2061FA090056D002 /* Debug */,
+				8323B20C2061FA090056D002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8323B20D2061FA090056D002 /* Build configuration list for PBXNativeTarget "JHLesson8 - ImageManageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8323B20E2061FA090056D002 /* Debug */,
+				8323B20F2061FA090056D002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8323B1D72061FA080056D002 /* Project object */;
+}

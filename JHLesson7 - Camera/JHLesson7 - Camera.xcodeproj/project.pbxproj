@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8323B1A62060EE9A0056D002 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8323B1A52060EE9A0056D002 /* AppDelegate.swift */; };
+		8323B1A82060EE9A0056D002 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8323B1A72060EE9A0056D002 /* ViewController.swift */; };
+		8323B1AB2060EE9A0056D002 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8323B1A92060EE9A0056D002 /* Main.storyboard */; };
+		8323B1AD2060EE9A0056D002 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8323B1AC2060EE9A0056D002 /* Assets.xcassets */; };
+		8323B1B02060EE9A0056D002 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8323B1AE2060EE9A0056D002 /* LaunchScreen.storyboard */; };
+		8323B1BB2060EE9A0056D002 /* JHLesson7___CameraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8323B1BA2060EE9A0056D002 /* JHLesson7___CameraTests.swift */; };
+		8323B1C62060EE9A0056D002 /* JHLesson7___CameraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8323B1C52060EE9A0056D002 /* JHLesson7___CameraUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8323B1B72060EE9A0056D002 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8323B19A2060EE9A0056D002 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8323B1A12060EE9A0056D002;
+			remoteInfo = "JHLesson7 - Camera";
+		};
+		8323B1C22060EE9A0056D002 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8323B19A2060EE9A0056D002 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8323B1A12060EE9A0056D002;
+			remoteInfo = "JHLesson7 - Camera";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8323B1A22060EE9A0056D002 /* JHLesson7 - Camera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JHLesson7 - Camera.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8323B1A52060EE9A0056D002 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8323B1A72060EE9A0056D002 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8323B1AA2060EE9A0056D002 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8323B1AC2060EE9A0056D002 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8323B1AF2060EE9A0056D002 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8323B1B12060EE9A0056D002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8323B1B62060EE9A0056D002 /* JHLesson7 - CameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JHLesson7 - CameraTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8323B1BA2060EE9A0056D002 /* JHLesson7___CameraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JHLesson7___CameraTests.swift"; sourceTree = "<group>"; };
+		8323B1BC2060EE9A0056D002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8323B1C12060EE9A0056D002 /* JHLesson7 - CameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JHLesson7 - CameraUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8323B1C52060EE9A0056D002 /* JHLesson7___CameraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JHLesson7___CameraUITests.swift"; sourceTree = "<group>"; };
+		8323B1C72060EE9B0056D002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8323B19F2060EE9A0056D002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8323B1B32060EE9A0056D002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8323B1BE2060EE9A0056D002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8323B1992060EE9A0056D002 = {
+			isa = PBXGroup;
+			children = (
+				8323B1A42060EE9A0056D002 /* JHLesson7 - Camera */,
+				8323B1B92060EE9A0056D002 /* JHLesson7 - CameraTests */,
+				8323B1C42060EE9A0056D002 /* JHLesson7 - CameraUITests */,
+				8323B1A32060EE9A0056D002 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8323B1A32060EE9A0056D002 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8323B1A22060EE9A0056D002 /* JHLesson7 - Camera.app */,
+				8323B1B62060EE9A0056D002 /* JHLesson7 - CameraTests.xctest */,
+				8323B1C12060EE9A0056D002 /* JHLesson7 - CameraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8323B1A42060EE9A0056D002 /* JHLesson7 - Camera */ = {
+			isa = PBXGroup;
+			children = (
+				8323B1A52060EE9A0056D002 /* AppDelegate.swift */,
+				8323B1A72060EE9A0056D002 /* ViewController.swift */,
+				8323B1A92060EE9A0056D002 /* Main.storyboard */,
+				8323B1AC2060EE9A0056D002 /* Assets.xcassets */,
+				8323B1AE2060EE9A0056D002 /* LaunchScreen.storyboard */,
+				8323B1B12060EE9A0056D002 /* Info.plist */,
+			);
+			path = "JHLesson7 - Camera";
+			sourceTree = "<group>";
+		};
+		8323B1B92060EE9A0056D002 /* JHLesson7 - CameraTests */ = {
+			isa = PBXGroup;
+			children = (
+				8323B1BA2060EE9A0056D002 /* JHLesson7___CameraTests.swift */,
+				8323B1BC2060EE9A0056D002 /* Info.plist */,
+			);
+			path = "JHLesson7 - CameraTests";
+			sourceTree = "<group>";
+		};
+		8323B1C42060EE9A0056D002 /* JHLesson7 - CameraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8323B1C52060EE9A0056D002 /* JHLesson7___CameraUITests.swift */,
+				8323B1C72060EE9B0056D002 /* Info.plist */,
+			);
+			path = "JHLesson7 - CameraUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8323B1A12060EE9A0056D002 /* JHLesson7 - Camera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8323B1CA2060EE9B0056D002 /* Build configuration list for PBXNativeTarget "JHLesson7 - Camera" */;
+			buildPhases = (
+				8323B19E2060EE9A0056D002 /* Sources */,
+				8323B19F2060EE9A0056D002 /* Frameworks */,
+				8323B1A02060EE9A0056D002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JHLesson7 - Camera";
+			productName = "JHLesson7 - Camera";
+			productReference = 8323B1A22060EE9A0056D002 /* JHLesson7 - Camera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8323B1B52060EE9A0056D002 /* JHLesson7 - CameraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8323B1CD2060EE9B0056D002 /* Build configuration list for PBXNativeTarget "JHLesson7 - CameraTests" */;
+			buildPhases = (
+				8323B1B22060EE9A0056D002 /* Sources */,
+				8323B1B32060EE9A0056D002 /* Frameworks */,
+				8323B1B42060EE9A0056D002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8323B1B82060EE9A0056D002 /* PBXTargetDependency */,
+			);
+			name = "JHLesson7 - CameraTests";
+			productName = "JHLesson7 - CameraTests";
+			productReference = 8323B1B62060EE9A0056D002 /* JHLesson7 - CameraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8323B1C02060EE9A0056D002 /* JHLesson7 - CameraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8323B1D02060EE9B0056D002 /* Build configuration list for PBXNativeTarget "JHLesson7 - CameraUITests" */;
+			buildPhases = (
+				8323B1BD2060EE9A0056D002 /* Sources */,
+				8323B1BE2060EE9A0056D002 /* Frameworks */,
+				8323B1BF2060EE9A0056D002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8323B1C32060EE9A0056D002 /* PBXTargetDependency */,
+			);
+			name = "JHLesson7 - CameraUITests";
+			productName = "JHLesson7 - CameraUITests";
+			productReference = 8323B1C12060EE9A0056D002 /* JHLesson7 - CameraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8323B19A2060EE9A0056D002 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = JHSwift;
+				TargetAttributes = {
+					8323B1A12060EE9A0056D002 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					8323B1B52060EE9A0056D002 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8323B1A12060EE9A0056D002;
+					};
+					8323B1C02060EE9A0056D002 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8323B1A12060EE9A0056D002;
+					};
+				};
+			};
+			buildConfigurationList = 8323B19D2060EE9A0056D002 /* Build configuration list for PBXProject "JHLesson7 - Camera" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8323B1992060EE9A0056D002;
+			productRefGroup = 8323B1A32060EE9A0056D002 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8323B1A12060EE9A0056D002 /* JHLesson7 - Camera */,
+				8323B1B52060EE9A0056D002 /* JHLesson7 - CameraTests */,
+				8323B1C02060EE9A0056D002 /* JHLesson7 - CameraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8323B1A02060EE9A0056D002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8323B1B02060EE9A0056D002 /* LaunchScreen.storyboard in Resources */,
+				8323B1AD2060EE9A0056D002 /* Assets.xcassets in Resources */,
+				8323B1AB2060EE9A0056D002 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8323B1B42060EE9A0056D002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8323B1BF2060EE9A0056D002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8323B19E2060EE9A0056D002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8323B1A82060EE9A0056D002 /* ViewController.swift in Sources */,
+				8323B1A62060EE9A0056D002 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8323B1B22060EE9A0056D002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8323B1BB2060EE9A0056D002 /* JHLesson7___CameraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8323B1BD2060EE9A0056D002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8323B1C62060EE9A0056D002 /* JHLesson7___CameraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8323B1B82060EE9A0056D002 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8323B1A12060EE9A0056D002 /* JHLesson7 - Camera */;
+			targetProxy = 8323B1B72060EE9A0056D002 /* PBXContainerItemProxy */;
+		};
+		8323B1C32060EE9A0056D002 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8323B1A12060EE9A0056D002 /* JHLesson7 - Camera */;
+			targetProxy = 8323B1C22060EE9A0056D002 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8323B1A92060EE9A0056D002 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8323B1AA2060EE9A0056D002 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8323B1AE2060EE9A0056D002 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8323B1AF2060EE9A0056D002 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8323B1C82060EE9B0056D002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8323B1C92060EE9B0056D002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8323B1CB2060EE9B0056D002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NCL7PFSHB3;
+				INFOPLIST_FILE = "JHLesson7 - Camera/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JHSwift.JHLesson7---Camera";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8323B1CC2060EE9B0056D002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NCL7PFSHB3;
+				INFOPLIST_FILE = "JHLesson7 - Camera/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JHSwift.JHLesson7---Camera";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8323B1CE2060EE9B0056D002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "JHLesson7 - CameraTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JHSwift.JHLesson7---CameraTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JHLesson7 - Camera.app/JHLesson7 - Camera";
+			};
+			name = Debug;
+		};
+		8323B1CF2060EE9B0056D002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "JHLesson7 - CameraTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JHSwift.JHLesson7---CameraTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JHLesson7 - Camera.app/JHLesson7 - Camera";
+			};
+			name = Release;
+		};
+		8323B1D12060EE9B0056D002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "JHLesson7 - CameraUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JHSwift.JHLesson7---CameraUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "JHLesson7 - Camera";
+			};
+			name = Debug;
+		};
+		8323B1D22060EE9B0056D002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "JHLesson7 - CameraUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JHSwift.JHLesson7---CameraUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "JHLesson7 - Camera";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8323B19D2060EE9A0056D002 /* Build configuration list for PBXProject "JHLesson7 - Camera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8323B1C82060EE9B0056D002 /* Debug */,
+				8323B1C92060EE9B0056D002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8323B1CA2060EE9B0056D002 /* Build configuration list for PBXNativeTarget "JHLesson7 - Camera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8323B1CB2060EE9B0056D002 /* Debug */,
+				8323B1CC2060EE9B0056D002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8323B1CD2060EE9B0056D002 /* Build configuration list for PBXNativeTarget "JHLesson7 - CameraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8323B1CE2060EE9B0056D002 /* Debug */,
+				8323B1CF2060EE9B0056D002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8323B1D02060EE9B0056D002 /* Build configuration list for PBXNativeTarget "JHLesson7 - CameraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8323B1D12060EE9B0056D002 /* Debug */,
+				8323B1D22060EE9B0056D002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8323B19A2060EE9A0056D002 /* Project object */;
+}
