@@ -11,8 +11,11 @@ import CoreLocation
 
 class ViewController: UIViewController, CLLocationManagerDelegate{
     
-    var infoLabel = UILabel()
+    var str = String()
     
+    var infoLabel = UILabel()
+    //实例化一个定位管理器
+    var locationManager = CLLocationManager()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -46,16 +49,18 @@ class ViewController: UIViewController, CLLocationManagerDelegate{
         self.view.addSubview(btn)
         btn.addTarget(self, action: #selector(findMyLocation), for: UIControlEvents.touchUpInside)
         
-        //实例化一个定位管理器
-        let locationManager = CLLocationManager()
         //设置定位服务管理器代理
+        locationManager = CLLocationManager.init()
         locationManager.delegate = self
         //设置定位进度
         locationManager.desiredAccuracy = kCLLocationAccuracyBest //最佳定位
         //更新距离
         locationManager.distanceFilter = 100
         //发出授权请求
-        locationManager.requestAlwaysAuthorization()
+        locationManager.requestWhenInUseAuthorization()
+        //bug
+//        locationManager.requestAlwaysAuthorization()
+        
         
         if (CLLocationManager.locationServicesEnabled()){
             //允许使用定位服务的话，开始定位服务更新
@@ -66,8 +71,6 @@ class ViewController: UIViewController, CLLocationManagerDelegate{
         
     }
     
-    var str = String()
-    
     @objc func findMyLocation() {
         infoLabel.text = str
         
@@ -77,12 +80,23 @@ class ViewController: UIViewController, CLLocationManagerDelegate{
         //获取最新的坐标
         let currLocation : CLLocation = locations.last!  // 持续更新
         
-        str = "纬度:\(currLocation.coordinate.latitude) \n + 纬度:\(currLocation.coordinate.longitude)  海拔:\(currLocation.altitude)  水平精度:\(currLocation.horizontalAccuracy)  垂直精度:\(currLocation.verticalAccuracy)  方向:\(currLocation.course)  速度:\(currLocation.speed)"
-    }
-    
-    
-    func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
-        str = error.localizedDescription
+        str = "纬度:\(currLocation.coordinate.latitude) \n  纬度:\(currLocation.coordinate.longitude) \n  海拔:\(currLocation.altitude) \n  水平精度:\(currLocation.horizontalAccuracy) \n  垂直精度:\(currLocation.verticalAccuracy) \n  方向:\(currLocation.course) \n 速度:\(currLocation.speed) \n"
+        let geocoder: CLGeocoder = CLGeocoder()
+        
+        geocoder.reverseGeocodeLocation(currLocation) { (placemark, error) in
+            if(error == nil) {
+                let array = placemark! as NSArray
+                let mark = array.firstObject as! CLPlacemark
+                let country = mark.country as! String
+                let city = mark.locality as! String
+                let countryCode = mark.isoCountryCode as! String
+                let subLocality = mark.subLocality as! String
+                let name = mark.name as! String
+                
+                self.str = self.str + country + name
+            }
+        }
+        
     }
     
     override func didReceiveMemoryWarning() {
